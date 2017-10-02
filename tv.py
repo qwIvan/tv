@@ -14,4 +14,5 @@ def now332():
     m3u8_url = json_obj['html5streamurl']
     content = requests.get(m3u8_url, proxies=proxies).content
     return content
-app.run('0.0.0.0')
+if __name__ == '__main__':
+    app.run('0.0.0.0')
