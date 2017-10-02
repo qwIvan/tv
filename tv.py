@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/now332')
+@app.route('/now332.m3u8')
 def now332():
     import requests
     import json
